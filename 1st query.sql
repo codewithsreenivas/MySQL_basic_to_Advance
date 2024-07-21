@@ -1,0 +1,26 @@
+CREATE DATABASE temp1;
+DROP DATABASE temp1;
+DROP DATABASE temp2;
+create database temp2;
+
+CREATE DATABASE	college;
+CREATE DATABASE	college;
+CREATE DATABASE	IF NOT EXISTS college;
+
+
+USE college;
+
+CREATE table student(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+
+INSERT INTO student VALUES(1,"AMAN", 26);
+INSERT INTO student VALUES(2,"SHRADHA", 24);
+
+SHOW DATABASES;
+SHOW TABLES;
+SELECT * FROM student;
+
+Drop table student;
